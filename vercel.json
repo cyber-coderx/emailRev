@@ -1,10 +1,9 @@
 {
-    "version": 2,
-    "builds": {
-        "src": "message.py",
-        "use": "@vercel/python"
-    },
-    "routes": [
-        { "src": "/(.*)", "dest": "message.py" }
-    ]
+  "version": 2,
+  "builds": [
+    { "src": "message.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "message.py" }
+  ]
 }
