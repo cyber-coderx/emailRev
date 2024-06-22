@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "build": {
+    "builds": {
         "src": "message.py",
         "use": "@vercel/python"
     },
