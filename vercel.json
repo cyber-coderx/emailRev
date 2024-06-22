@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "build": {
+        "src": "message.py",
+        "use": "@vercel/python"
+    },
+    "routes": [
+        { "src": "/(.*)", "dest": "message.py" }
+    ]
+}
